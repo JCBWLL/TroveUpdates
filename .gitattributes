@@ -1,0 +1,2 @@
+# Served byte-for-byte to boxes, and checksummed: never convert line endings.
+* -text

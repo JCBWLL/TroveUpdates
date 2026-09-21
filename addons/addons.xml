@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="repository.trove" version="1.0.0" name="Trove" provider-name="Jacob Wall">
+	<extension point="xbmc.addon.repository" name="Trove">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/JCBWLL/TroveUpdates/main/addons/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/JCBWLL/TroveUpdates/main/addons/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/JCBWLL/TroveUpdates/main/addons/</datadir>
+			<hashes>sha256</hashes>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<source>https://github.com/JCBWLL/TroveUpdates</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="en_GB">Updates for the Trove skin and screensaver</summary>
+		<description lang="en_GB">Delivers new versions of skin.trove and screensaver.trove to Trove boxes between system image releases.</description>
+	</extension>
+</addon>
+<addon id="screensaver.trove" version="1.0.1" name="Trove Idle" provider-name="Jacob Wall">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.ui.screensaver" library="default.py"/>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<source>https://github.com/JCBWLL/TroveSkin</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="en_GB">Trove idle clock</summary>
+		<description lang="en_GB">The idle screen from the Trove skin: an oversized tabular clock, the date, and a line of vault statistics. Uses the Trove fonts and palette, so it is intended to run alongside skin.trove.</description>
+	</extension>
+</addon>
+<addon id="skin.trove" version="1.1.0" name="Trove" provider-name="Jacob Wall">
+	<requires>
+		<import addon="xbmc.gui" version="5.17.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9"    default="true"  folder="xml" />
+		<res width="2560" height="1080" aspect="21:9"    default="false" folder="xml" />
+		<res width="2338" height="1080" aspect="19.5:9"  default="false" folder="xml" />
+		<res width="2160" height="1080" aspect="18:9"    default="false" folder="xml" />
+		<res width="2040" height="1080" aspect="17:9"    default="false" folder="xml" />
+		<res width="1920" height="1200" aspect="16:10"   default="false" folder="xml" />
+		<res width="1920" height="1280" aspect="3:2"     default="false" folder="xml" />
+		<res width="1920" height="1440" aspect="4:3"     default="false" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<source>https://github.com/JCBWLL/TroveSkin</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+		<summary lang="en_GB">Trove - a console-grade skin for a home media vault</summary>
+		<description lang="en_GB">Trove is a dark, typographic Kodi skin built for a dedicated LibreELEC streaming box. A cool near-black surface stack, a single creeper-green accent and a strict two-family type system - Space Grotesk for names and prose, JetBrains Mono for every label, tag and numeric value. Designed at 1920x1080 for ten-foot remote-driven navigation.</description>
+		<disclaimer lang="en_GB">Derived in part from Estuary (c) Team Kodi, used under GPL-2.0.</disclaimer>
+	</extension>
+</addon>
+</addons>
