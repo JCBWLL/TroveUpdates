@@ -1,9 +1,9 @@
 {
   "Generic.x86_64": {
-    "file": "Trove-Generic.x86_64-1.0.0.tar",
-    "sha256": "fe9a06fbdd0c744cc5c0126c4133accdfcda5ff3d12bd58aa24c101529ad7132",
+    "file": "Trove-Generic.x86_64-1.0.1.tar",
+    "sha256": "78e989abb1cea1c5ba0a81d39981b5c94126010737739fcd52f5be495a27c840",
     "size": 289935360,
-    "url": "https://github.com/JCBWLL/TroveUpdates/releases/download/1.0.0/Trove-Generic.x86_64-1.0.0.tar",
-    "version": "1.0.0"
+    "url": "https://github.com/JCBWLL/TroveUpdates/releases/download/1.0.1/Trove-Generic.x86_64-1.0.1.tar",
+    "version": "1.0.1"
   }
 }
