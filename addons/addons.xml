@@ -36,7 +36,25 @@
 		<description lang="en_GB">The idle screen from the Trove skin: an oversized tabular clock, the date, and a line of vault statistics. Uses the Trove fonts and palette, so it is intended to run alongside skin.trove.</description>
 	</extension>
 </addon>
-<addon id="skin.trove" version="1.1.0" name="Trove" provider-name="Jacob Wall">
+<addon id="script.trove.onboard" version="0.2.0" name="Trove Jellyfin Setup" provider-name="Jacob Wall">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<source>https://github.com/JCBWLL/TroveSkin</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<summary lang="en_GB">Full-screen Jellyfin onboarding for Trove</summary>
+		<description lang="en_GB">Opens the welcome screen a new box starts on, then installs Jellyfin for Kodi and lets it run its own server and sign-in flow. Those windows are drawn by skin.trove as the later steps of the same wizard, so this is meant to run with that skin.</description>
+	</extension>
+</addon>
+<addon id="skin.trove" version="1.2.1" name="Trove" provider-name="Jacob Wall">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
 	</requires>
